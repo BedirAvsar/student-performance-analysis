@@ -1,0 +1,15 @@
+-- THE MOST SUCCESSFUL STUDENTS
+SELECT * FROM student_performance
+ORDER BY GPA DESC
+LIMIT 5;
+
+-- STUDENT WHO PASSED WITH AN AVERAGE NOTES
+SELECT GradeClass, AVG(GPA) AS avg_gpa
+FROM student_performance
+GROUP BY GradeClass;
+
+-- ABSENT AND FAILING STUDENTS
+SELECT Absences, AVG(GPA)
+FROM student_performance
+GROUP BY Absences
+ORDER BY Absences;
