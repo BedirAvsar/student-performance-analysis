@@ -20,3 +20,9 @@ study time, parental education, and test preparation affect academic success.
 - Writing complex SQL joins
 - Aggregations and grouping
 - Translating real-world questions into SQL queries
+
+## Dataset Preview
+
+Below is a preview of the student performance dataset used in this project:
+
+![Student Performance Dataset](images/dataset-preview.png)
